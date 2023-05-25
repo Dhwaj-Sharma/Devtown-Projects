@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="bg-white-800">
+            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                <div class="relative flex h-16 items-center justify-between">
+
+                    <div class="flex items-center justify-center sm:items-stretch sm:justify-start">
+
+                        <div class="hidden sm:ml-6 sm:block">
+                            <div class="flex space-x-4">
+                                <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                                    aria-current="page">Women</a>
+                                <a href="#"
+                                    class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Men</a>
+                                <a href="#"
+                                    class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Company</a>
+                                <a href="#"
+                                    class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Stores</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-shrink-0 items-center">
+                        <img class="hidden h-8 w-auto lg:block"
+                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+                    </div>
+                    <div class="absolute inset-y-0 right-0 flex pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        <button type="button" class="rounded-full bg-gray-200 p-3">
+                            <img class="h-6 w-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png">
+                        </button>
+                        <button type="button" class="rounded-full bg-gray-200 p-3">
+                            <img class="h-6 w-6" src="search.svg">
+                        </button>
+                        <button type="button" class="rounded-full bg-gray-200 p-3">
+                            <img class="h-6 w-6" src="profile.svg">
+                        </button>
+                        <button type="button" class="rounded-full bg-gray-200 p-3">
+                            <img class="h-6 w-6" src="shopping.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <div class="images">
+            <div class="mainimage">
+                <img src="product-page-03-product-04.jpg">
+                <div class="text">
+                    <h1><b>Zip Tote Basket</b></h1>
+                    <p class="price">$140</p>
+                    <div class="stars">
+                        <img src="star.svg">
+                        <img src="star.svg">
+                        <img src="star.svg">
+                        <img src="star.svg">
+                        <img src="star-empty.svg">
+                    </div>
+                    <p class="description">The Zip Tote Basket is a perfext midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.</p>
+                    <p class="colorstext">Colors</p>
+                    <div class="colors">
+                        <button class="color-button black" style="background-color: black;"></button>
+                        <button class="color-button white" style="background-color: white;"></button>
+                        <button class="color-button gray" style="background-color: gray;"></button>
+                    </div>
+                    <div class="addfavourite">
+                        <button class="addtobag rounded-lg">
+                            Add to Bag
+                        </button>
+                        <div class="favourite">
+                            <button type="button">
+                                <img src="favourite.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sections">
+                        <hr class="mt-10">
+                        <div class="features">
+                            <div class="featurestext mt-5 mb-5">Features</div>
+                        </div>
+                        <hr>
+                        <div class="care">
+                            <div class="caretext mt-5 mb-5">Care</div>
+                        </div>
+                        <hr>
+                        <div class="shipping">
+                            <div class="shippingtext mt-5 mb-5">Shipping</div>
+                        </div>
+                        <hr>
+                        <div class="return">
+                            <div class="returntext mt-5 mb-5">Returns</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="extras">
+                <button>
+                    <img src="product-page-03-product-01.jpg">
+                </button>
+                <button>
+                    <img src="product-page-03-product-02.jpg">
+                </button>
+                <button>
+                    <img src="product-page-03-product-03.jpg">
+                </button>
+                <button>
+                    <img src="product-page-03-product-04.jpg">
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr class="my-10">
+    <div class="customersalsobought mb-10 ml-5 font-bold">Customers also bought</div>
+    <div class="Also_Buy ml-10 mr-10 justify-center">
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div class="overflow-auto rounded-xl bg-white bg-clip-border text-gray-700">
+              <img class="items-center" src="image1.jpg"/>
+            </div>
+            <div class="p-6">
+              <div class="mb-2 flex items-center justify-between">
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  Zip Tote Basket
+                </p>
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  $140
+                </p>
+              </div>
+              <p class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                White and Black
+              </p>
+            </div>
+            <div class="p-6 pt-0">
+              <button class=" w-full rounded-lg bg-gray-300 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase" type="button">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ml-10">
+            <div class="items-center overflow-auto rounded-xl bg-white bg-clip-border text-gray-700">
+              <img src="image2.jpg"/>
+            </div>
+            <div class="p-6">
+              <div class="mb-2 flex items-center justify-between">
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  Zip High Wall Tote
+                </p>
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  $150
+                </p>
+              </div>
+              <p class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                White and Blue
+              </p>
+            </div>
+            <div class="p-6 pt-0">
+              <button class=" w-full rounded-lg bg-gray-300 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase" type="button">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ml-10">
+            <div class="items-center overflow-auto rounded-xl bg-white bg-clip-border text-gray-700">
+              <img src="image3.jpg"/>
+            </div>
+            <div class="p-6">
+              <div class="mb-2 flex items-center justify-between">
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  Halfsize Tote
+                </p>
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  $210
+                </p>
+              </div>
+              <p class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                Clay
+              </p>
+            </div>
+            <div class="p-6 pt-0">
+              <button class=" w-full rounded-lg bg-gray-300 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase" type="button">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ml-10">
+            <div class="items-center overflow-auto rounded-xl bg-white bg-clip-border text-gray-700">
+              <img src="image4.jpg"/>
+            </div>
+            <div class="p-6">
+              <div class="mb-2 flex items-center justify-between">
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  High Wall Tote
+                </p>
+                <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                  $210
+                </p>
+              </div>
+              <p class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+                Black and Orange
+              </p>
+            </div>
+            <div class="p-6 pt-0">
+              <button class=" w-full rounded-lg bg-gray-300 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase" type="button">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+    </div>
+    <hr class="my-10">
+    <div class="footer flex flex-row">
+        <div class="footerimage mx-20">
+            <img src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="">
+        </div>
+        <div class="products flex flex-col ml-5 mr-12">
+            <span class="font-medium">Products</span>
+            <span><button class="text-gray-500 mt-5">Bags</button></span>
+            <span><button class="text-gray-500 mt-5">Tees</button></span>
+            <span><button class="text-gray-500 mt-5">Objects</button></span>
+            <span><button class="text-gray-500 mt-5">Home Goods</button></span>
+            <span><button class="text-gray-500 mt-5">Accessories</button></span>
+        </div>
+        <div class="Company flex flex-col mx-12">
+            <span class="font-medium">Company</span>
+            <span><button class="text-gray-500 mt-5">Who are we</button></span>
+            <span><button class="text-gray-500 mt-5">Sustainability</button></span>
+            <span><button class="text-gray-500 mt-5">Press</button></span>
+            <span><button class="text-gray-500 mt-5">Careers Goods</button></span>
+            <span><button class="text-gray-500 mt-5">Terms and Conditions</button></span>
+            <span><button class="text-gray-500 mt-5">Privacy</button></span>
+        </div>
+        <div class="customerservice flex flex-col mx-12">
+            <span class="font-medium">Customer Service</span>
+            <span><button class="text-gray-500 mt-5">Contacts</button></span>
+            <span><button class="text-gray-500 mt-5">Shipping</button></span>
+            <span><button class="text-gray-500 mt-5">Returns</button></span>
+            <span><button class="text-gray-500 mt-5">Warranty</button></span>
+            <span><button class="text-gray-500 mt-5">Secure Payments</button></span>
+            <span><button class="text-gray-500 mt-5">FAQ</button></span>
+            <span><button class="text-gray-500 mt-5">Find a store</button></span>
+        </div>
+        <div class="signup ml-48">
+            <span class="font-medium">Sign up for our newsletter</span>
+            <p class="text-gray-500 mt-5 mb-1">The latest deals and savings, sent to your inbox weekly.</p>
+            <div class="flex">
+                <input type="email" class="w-64 py-2 px-4 border border-gray-300 rounded-l-md" placeholder="Email Address">
+                <button class="SignUP text-white py-2 px-4 rounded-r-md">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <hr class="mt-20 mb-10">
+    <div class="copyright mb-10 flex justify-between items-center">
+      <div class="text-left"></div>
+      <div class="text-gray-600 text-center">&copy; 2021 Your Company, Inc. All rights reserved.</div>
+      <div class="text-right"></div>
+    </div>    
+</body>
+
+</html>

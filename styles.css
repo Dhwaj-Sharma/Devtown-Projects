@@ -1,0 +1,127 @@
+.flex flex-shrink-0 items-center>img{
+    justify-content: center;
+    z-index: -1;
+}
+.rounded-full{
+    margin: 10px;
+}
+.images{
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border-color: black;
+}
+.extras{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.extras img{
+    padding: 5px;
+    width: 115px;
+    height: 115px;
+}
+.extras button{
+    width: 115px;
+    height: 115px;
+}
+.extras button :hover{
+    border: 3px solid rgb(144, 0, 255);
+}
+.mainimage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.mainimage img{
+    width: 450px;
+    height: 500px;
+}
+.text{
+    margin-left: 50px;
+}
+.text>h1>b{
+    font-size: 35px;
+    font-weight: 700;
+}
+.price{
+    font-size: 30px;
+    font-weight: 400;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+.text img{
+    color: blue;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.description{
+    margin-top: 30px;
+    padding-right: 200px;
+    font-weight: 400;
+}
+.colorstext{
+    font-weight: 700;
+    margin-top: 20px;
+}
+.color-button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+.color-button:focus{
+    border: 2px solid black;
+}
+.addfavourite{
+    display: flex;
+    flex-direction: row;
+}
+.addtobag{
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(69, 22, 221);
+    color: white;
+    font-weight: 500;
+}
+.favourite>button{
+    padding: 10px;
+}
+.favourite{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.customersalsobought{
+    font-size: 25px;
+}
+.Also_Buy{
+    display: flex;
+    flex-direction: row;
+}
+.footerimage{
+    height: 35px;
+    width: 35px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+}
+.SignUP{
+    background-color: rgb(69, 22, 221);
+}
+.SignUP:focus{
+    border-color: rgb(69, 22, 221);
+}
+  
